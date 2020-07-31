@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="CGPA Calculator"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblsubject1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject2" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject5" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject4" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject6" min="-2" max="-2" attributes="0"/>
+                  <Component id="btncalcgpa" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="lblmarks" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtsubject1" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="txtsubject6" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="txtsubject2" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="txtsubject4" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="txtsubject3" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="txtsubject5" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="txtcredit4" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="txtcredit1" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="txtcredit3" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="txtcredit2" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="lblcredithours" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcredit5" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+                  <Component id="txtcredit6" alignment="2" min="-2" pref="84" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
+              <Component id="btnreset" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="44" max="32767" attributes="0"/>
+              <Component id="lblgpa" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Component id="txtgpa" min="-2" pref="200" max="-2" attributes="0"/>
+              <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblmarks" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblcredithours" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtsubject1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcredit1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtsubject2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcredit2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtsubject3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcredit3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtsubject4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcredit4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtsubject5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcredit5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject5" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtsubject6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcredit6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblsubject6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblgpa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtgpa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btncalcgpa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnreset" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblmarks">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Marks"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtsubject1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcredithours">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Credit Hours"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblsubject1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblsubject2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblsubject3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblsubject5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblsubject4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblsubject6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Subject 6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcredit4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcredit1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcredit3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcredit2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtsubject6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcredit5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtsubject2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtsubject4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtsubject3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtsubject5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcredit6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblgpa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GPA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtgpa">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btncalcgpa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncalcgpaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnreset">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnresetActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
